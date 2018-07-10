@@ -24,3 +24,12 @@ dependencies {
     testCompile 'io.github.bonigarcia:webdrivermanager:1.6.1'
     testCompile 'org.seleniumhq.selenium:selenium-java:3.3.1'
 }
+
+task webpack(type: Exec) {
+    inputs.file("package-lock.json").withPathSensitivity(PathSensitivity.RELATIVE)
+    inputs.dir("app").withPathSensitivity(PathSensitivity.RELATIVE)
+    outputs.dir("$buildDir/js")
+    outputs.cacheIf { true }
+
+    commandLine "$projectDir/node_modules/.bin/webpack", "app/index.js", "$buildDir/js/bundle.js"
+}

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="IT" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-10T03:11:09" hostname="Erics-MacBook-Pro.local" time="4.074">
+<testsuite name="IT" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-10T03:51:51" hostname="Erics-MacBook-Pro.local" time="4.652">
   <properties/>
-  <testcase name="sayHello" classname="IT" time="4.074"/>
+  <testcase name="sayHello" classname="IT" time="4.652"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jul 09, 2018 8:11:09 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+Jul 09, 2018 8:51:51 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 34853
+Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 32248
 Only local connections are allowed.
-Jul 09, 2018 8:11:10 PM org.openqa.selenium.json.JsonOutput lambda$new$11
+Jul 09, 2018 8:51:51 PM org.openqa.selenium.json.JsonOutput lambda$new$11
 WARNING: Attempt to convert JsonElement from GSON. This functionality is deprecated. Diagnostic stacktrace follows
 org.openqa.selenium.json.JsonException: Stack trace to determine cause of warning
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'Erics-MacBook-Pro.local', ip: 'fe80:0:0:0:843:c91a:20ee:19ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_51'
 Driver info: driver.version: ChromeDriver
 	at org.openqa.selenium.json.JsonOutput.lambda$new$11(JsonOutput.java:129)
-	at org.openqa.selenium.json.JsonOutput$$Lambda$53/1438647969.consume(Unknown Source)
+	at org.openqa.selenium.json.JsonOutput$$Lambda$53/112036875.consume(Unknown Source)
 	at org.openqa.selenium.json.JsonOutput$SafeBiConsumer.accept(JsonOutput.java:394)
 	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:248)
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:300)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$13(JsonOutput.java:139)
-	at org.openqa.selenium.json.JsonOutput$$Lambda$55/741747291.consume(Unknown Source)
+	at org.openqa.selenium.json.JsonOutput$$Lambda$55/207475348.consume(Unknown Source)
 	at org.openqa.selenium.json.JsonOutput$SafeBiConsumer.accept(JsonOutput.java:394)
 	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:248)
 	at org.openqa.selenium.json.JsonOutput.lambda$null$20(JsonOutput.java:161)
-	at org.openqa.selenium.json.JsonOutput$$Lambda$73/64779627.accept(Unknown Source)
+	at org.openqa.selenium.json.JsonOutput$$Lambda$73/1450942432.accept(Unknown Source)
 	at java.util.TreeMap.forEach(TreeMap.java:1001)
 	at java.util.Collections$UnmodifiableMap.forEach(Collections.java:1505)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$21(JsonOutput.java:160)
-	at org.openqa.selenium.json.JsonOutput$$Lambda$63/1799917558.consume(Unknown Source)
+	at org.openqa.selenium.json.JsonOutput$$Lambda$63/1413920220.consume(Unknown Source)
 	at org.openqa.selenium.json.JsonOutput$SafeBiConsumer.accept(JsonOutput.java:394)
 	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:248)
 	at org.openqa.selenium.json.JsonOutput.lambda$null$20(JsonOutput.java:161)
-	at org.openqa.selenium.json.JsonOutput$$Lambda$73/64779627.accept(Unknown Source)
+	at org.openqa.selenium.json.JsonOutput$$Lambda$73/1450942432.accept(Unknown Source)
 	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$21(JsonOutput.java:160)
-	at org.openqa.selenium.json.JsonOutput$$Lambda$63/1799917558.consume(Unknown Source)
+	at org.openqa.selenium.json.JsonOutput$$Lambda$63/1413920220.consume(Unknown Source)
 	at org.openqa.selenium.json.JsonOutput$SafeBiConsumer.accept(JsonOutput.java:394)
 	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:248)
 	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:239)
@@ -103,7 +103,7 @@ Driver info: driver.version: ChromeDriver
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:745)
 
-Jul 09, 2018 8:11:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 09, 2018 8:51:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

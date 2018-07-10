@@ -1,0 +1,26 @@
+{
+  "name": "shurangama-learning-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericxu10101/shurangama-learning-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericxu10101/shurangama-learning-web/issues"
+  },
+  "homepage": "https://github.com/ericxu10101/shurangama-learning-web#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "webpack": "^2.7.0"
+  }
+}
