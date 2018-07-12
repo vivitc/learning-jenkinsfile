@@ -14,7 +14,19 @@ repositories {
 }
 
 gretty {
-    integrationTestTask = 'test'
+    integrationTestTask = 'functionalTest'
+}
+
+test {
+    useJUnit {
+        exclude '**/*FunctionalTest.class'
+    }
+}
+
+task functionalTest(type: Test) {
+    useJUnit {
+        include '**/*FunctionalTest.class'
+    }
 }
 
 dependencies {
