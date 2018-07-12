@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="servlet.HelloServletTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-07-10T03:11:07" hostname="Erics-MacBook-Pro.local" time="0.737">
-  <properties/>
-  <testcase name="doPostWithoutName" classname="servlet.HelloServletTest" time="0.734"/>
-  <testcase name="doGet" classname="servlet.HelloServletTest" time="0.001"/>
-  <testcase name="doPostWithName" classname="servlet.HelloServletTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
